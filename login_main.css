@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+h2, h3{display: none;}
+/* main.css */
+main{
+  width: 100%;
+  background: #fff;
+  margin: 30px auto;
+  line-height: 30px;
+  border-radius: 10px;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin: 0px 10px;
+
+}
+.title > li:first-child{
+  border-bottom:3px solid #00256C;
+  padding: 0px 90px;
+  
+}
+.title >li:last-child{
+  border-bottom: 1px solid rgb(139, 139, 139);
+  padding: 0px 65px;
+}
+
+
+#id, #pass{
+  width: 98%; height: 30px;
+  margin-left: 5px;
+  border: none;
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+
+}
+.fa-circle{font-size: 0.4rem;
+color: #f00;
+position: relative;
+top: -6px;
+}
+.login{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.id_c{  color: rgb(58, 104, 255);
+padding-right: 10px;}
+.user{
+  color: rgb(58, 104, 255);
+  float: right;}
+
+.login_btn{
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 20px 190px;
+  border-radius: 10px;
+  border: none;
+  background:  #00256C;
+  color: #fff;font-weight: bold;
+  
+}
+
+.bar{padding: 0px 20px;}
+
+.find{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.icon{display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.icon img{
+  width: 40px; height: 40px;
+  border-radius: 50px;
+}
+.icon > div:nth-child(3) > a > img{
+  width: 30px; height: 30px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+.icon span{
+  display: block;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.title_icon{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -10px;
+}
+
+.last{text-align: center;
+margin-top: 50px;}
+.last img{
+  width: 10px; height: 13px;
+}
+.last a{text-decoration: underline;
+font-weight: 500;}
